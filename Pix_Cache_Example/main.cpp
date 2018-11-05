@@ -80,7 +80,7 @@ int main() {
 	size_t width = _IMG_1.columns();
 	size_t height = _IMG_1.rows();
 
-	Magick::Image _IMG_COMBINED(Magick::Geometry(width, height), Magick::Color("white"));
+	Magick::Image _IMG_COMBINED(Magick::Geometry(width, height), "black");
 
 	// Allows image to be modifyable through pixel cache
 	_IMG_COMBINED.modifyImage();
@@ -112,7 +112,7 @@ int main() {
 	for (size_t i = 0; i < height; i++)
 		for (size_t j = 0; j < width; j++)
 		{
-			uint8_t _A = *_PIXEL_CACHE_IMG_1++ << 0;
+			uint8_t _A = *_PIXEL_CACHE_IMG_1++;
 			uint8_t _B = *_PIXEL_CACHE_IMG_2++ << 1;
 			uint8_t _C = *_PIXEL_CACHE_IMG_3++ << 2;
 			uint8_t _D = *_PIXEL_CACHE_IMG_4++ << 3;

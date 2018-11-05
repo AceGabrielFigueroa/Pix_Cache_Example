@@ -1,10 +1,11 @@
 ﻿  main.cpp
-c:\users\benfig\source\repos\pix_cache_example\pix_cache_example\main.cpp(101): warning C4244: 'argument': conversion from 'double' to 'const MagickCore::Quantum', possible loss of data
-c:\users\benfig\source\repos\pix_cache_example\pix_cache_example\main.cpp(104): warning C4244: 'argument': conversion from 'double' to 'const MagickCore::Quantum', possible loss of data
-c:\users\benfig\source\repos\pix_cache_example\pix_cache_example\main.cpp(107): warning C4244: 'argument': conversion from 'double' to 'const MagickCore::Quantum', possible loss of data
+c:\users\acegf\documents\github\pix_cache_example\pix_cache_example\main.cpp(101): warning C4244: 'argument': conversion from 'double' to 'const MagickCore::Quantum', possible loss of data
+c:\users\acegf\documents\github\pix_cache_example\pix_cache_example\main.cpp(104): warning C4244: 'argument': conversion from 'double' to 'const MagickCore::Quantum', possible loss of data
+c:\users\acegf\documents\github\pix_cache_example\pix_cache_example\main.cpp(107): warning C4244: 'argument': conversion from 'double' to 'const MagickCore::Quantum', possible loss of data
+c:\users\acegf\documents\github\pix_cache_example\pix_cache_example\main.cpp(115): warning C4244: 'initializing': conversion from 'const MagickCore::Quantum' to 'uint8_t', possible loss of data
   Generating code
-  1 of 152 functions ( 0.7%) were compiled, the rest were copied from previous compilation.
+  1 of 151 functions ( 0.7%) were compiled, the rest were copied from previous compilation.
     0 functions were new in current compilation
-    0 functions had inline decision re-evaluated but remain unchanged
+    1 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
-  Pix_Cache_Example.vcxproj -> C:\Users\benfig\source\repos\Pix_Cache_Example\x64\Release\Pix_Cache_Example.exe
+  Pix_Cache_Example.vcxproj -> C:\Users\acegf\Documents\GitHub\Pix_Cache_Example\x64\Release\Pix_Cache_Example.exe

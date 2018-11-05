@@ -121,7 +121,6 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="reference.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="resources\img1.png" />
